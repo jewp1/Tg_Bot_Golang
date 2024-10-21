@@ -1,10 +1,11 @@
 package tests
 
-import "testing"
+import (
+	"testing"
+)
 
 type testValue struct {
 }
 
 func TestDoRequest(t *testing.T) {
-
 }

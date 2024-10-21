@@ -16,7 +16,6 @@ const (
 )
 
 //read_adviser_jewps_bot
-// 7784308198:AAFJtjbpOzqYt7OUeDbar1ASpy53v_jdZNM
 
 func main() {
 

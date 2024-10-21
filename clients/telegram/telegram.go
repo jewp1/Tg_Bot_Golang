@@ -49,7 +49,6 @@ func (c *Client) Updates(offset int, limit int) ([]Updates, error) {
 	if err := json.Unmarshal(data, &res); err != nil {
 		return nil, fmt.Errorf("cant unmarshal response: %w", err)
 	}
-
 	return res.Result, nil
 }
 

@@ -97,7 +97,7 @@ func event(upd telegram.Updates) events.Event {
 }
 
 func fetchText(upd telegram.Updates) string {
-	if upd.Message != nil {
+	if upd.Message == nil {
 		return ""
 	}
 	return upd.Message.Text
